@@ -37,6 +37,9 @@ El objetivo principal de este proyecto es desarrollar una interfaz utilizando HT
 ## 5. Requisitos
  ### GENERAL
 - Realizarse de manera individual
+
+          CONOCIMIENTO APRENDIDO:Gracias a estre trabajo de programación pude identificar de manera fácil las secciones que debía contener: header, main y footer. Además de poner en práctica en el diseño el uso de padding y flex para alcanzar el resultado deseado. Sin duda disfrute mucho de este código y espero que tú también lo hagas 🤓.
+
  ### UI
  - Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
  - Aplicar tipos de selectores en CSS.
