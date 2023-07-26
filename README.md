@@ -16,7 +16,7 @@ HTML trabaja de la mano con CSS para crear las páginas web que usamos todos los
 ## 2. Demo
 Puedes entrar a ver el demo en este vínculo: https://main--splendorous-cat-623607.netlify.app/
 <p></p>
-<img src="imagenes/ClondeGoogle.png" alt="MiClon">
+<img src="Clon/clon-de-google.png" alt="MiClon">
 
 ***La idea es inspirarte con esta demostración de proyecto.***
 
