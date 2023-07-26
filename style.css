@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex
+    align-items: center;
+    color:  #5f6368;  
+}
+
+header li, svg{
+    cursor: pointer;
+}
+
+
+main{
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+
+footer{
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   background-color:rgb(245, 245, 245);
+   color:rgb(97, 96, 96);
+   
+
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding: 20px 10px;
+}
+
+#nav-right-section{
+    padding: 20px 10px;
+}
+
+#nav-left-section{
+    padding: 0px 10px;
+    align-items: center;
+}
+
+#mexico{
+    display: flex;
+    padding: 12px 35px;
+    border-bottom: 1px solid #dadce0;
+}
+
+#footer-listas{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    cursor: pointer;
+}
+
+button{
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    min-width: 54px;
+    margin-bottom: 10%;
+    line-height: 27px;
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    
+    /*Colores*/
+    color: #3c4043;
+    cursor: pointer; 
+}
+
+button:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#buscador{
+/*Modelo de caja (espaciados)*/   
+    width: 85%;
+
+    border: 1px none;
+    border-radius:24px;
+    border: none;
+    outline: none;
+    border-color: none;
+
+}
+
+#buscador:hover{
+    border: none;
+    outline: none;
+    border-color: none;
+    }
+
+#seccion-buscador{
+    /*Modelo de caja (espaciados)*/
+    margin: 20px 0px;
+
+    border: none;
+    outline: none;
+    border-color: none;
+    
+    /*Modelo de caja (tamaños)*/
+    width: 560px;
+    min-height: 44px;
+    
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: space-between;   
+}
+
+#lupa{
+    cursor: auto;
+    opacity: 0.4;
+    height:5vh;
+}
+
+#voz{
+
+    cursor: pointer;
+}
+
+#escaner{
+    cursor: pointer;
+}
+
+#seccion-buscador svg{
+/*Modelo de caja (espaciados)*/
+    padding: 5px 7px;
+    width: 24px;
+
+}
+
+#seccion-header img{
+/*Foto de perfil redondeada*/
+border-radius: 50%;
+}
+
+/*Encabezado links*/
+a:link{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+/*Comportamiento cuando el mouse esté encima*/
+a:hover{
+    text-decoration: underline;
+    color: #3c4043;
+}
+
+/*Comportamiento del link cuando fue visitado*/
+a:visited{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
